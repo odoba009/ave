@@ -31,7 +31,7 @@ export default function Login() {
         setIsLoading(true);
         await wait(5000);
         setIsLoading(false);
-        if(formInput.username.toLowerCase() === "morganproject" && formInput.password === "TrustfundsSSA"){
+        if(formInput.username.toLowerCase() === "Betty136" && formInput.password === "Eleona1963@#"){
             toast.success("Login successful!")
             return navigate("/dashboard")
         }else{
